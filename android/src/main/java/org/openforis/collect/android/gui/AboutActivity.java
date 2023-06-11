@@ -26,13 +26,13 @@ public class AboutActivity extends AppCompatActivity {
                         App.versionFull(this),
                         Collect.VERSION.toString()
                 )))
-                .addWebsite("https://github.com/openforis/collect-mobile/blob/master/CHANGELOG.md", "Version Changelog")
-                .addWebsite("http://www.openforis.org/tools/collect-mobile")
-                .addGroup("Contact us")
-                .addWebsite("http://www.openforis.org/support", "Open Foris Support forum")
-                .addTwitter("openforis")
-                .addPlayStore("org.openforis.collect")
-                .addGitHub("openforis/collect-mobile")
+                // .addWebsite("https://github.com/openforis/collect-mobile/blob/master/CHANGELOG.md", "Version Changelog")
+                // .addWebsite("http://www.openforis.org/tools/collect-mobile")
+                // .addGroup("Contact us")
+                // .addWebsite("http://www.openforis.org/support", "Open Foris Support forum")
+                // .addTwitter("openforis")
+                // .addPlayStore("org.openforis.collect")
+                // .addGitHub("openforis/collect-mobile")
                 .create();
 
         setContentView(aboutPage);
