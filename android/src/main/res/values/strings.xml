@@ -2,7 +2,7 @@
 <resources>
 
     <!-- home screen -->
-    <string name="main_title">Open Foris Collect Mobile</string>
+    <string name="main_title">EFMIS Mobile</string>
     <string name="version_label">Version:</string>
     <string name="go_to_data_entry">Go to Data Entry</string>
     <string name="survey_label">Select a survey:</string>
@@ -32,7 +32,7 @@
 
     <string name="low_storage_error">Low device storage</string>
 
-    <string name="app_name">Collect</string>
+    <string name="app_name">EFMIS Mobile</string>
     <string name="survey_list">Surveys</string>
     <string name="settings">Settings</string>
     <string name="button_select">Edit</string>
