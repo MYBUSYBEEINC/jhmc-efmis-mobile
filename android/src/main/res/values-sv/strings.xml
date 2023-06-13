@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collect</string>
+    <string name="button_select">Editera</string>
+
+    <string name="action_add_node">Lägg till</string>
+    <string name="action_node_list">Lista</string>
+    <string name="action_next_attribute">Nästa attribut</string>
+    <string name="action_import">Importera</string>
+    <string name="action_export">Exportera</string>
+    <string name="action_backup">Säkerhetskopiera</string>
+    <string name="action_settings">Inställningar</string>
+
+    <string name="backup_insert_sd_card">Stoppa in SD kort att spara säkerhetskopian på</string>
+
+    <string name="toast_exported_survey">Exporterade till %s</string>
+    <string name="toast_exported_survey_failed">Misslyckades att exportera: %s</string>
+    <string name="toast_import_survey">Importerar</string>
+    <string name="toast_import_survey_failed">Misslyckades att importera från %s</string>
+    <string name="backup_complete">Säkerhetskopierade till %s</string>
+    <string name="backup_failed">Misslyckades att säkerhetskopiera: %s</string>
+
+    <string name="storage_not_found_message">Kan inte hitta lagringsplatsen</string>
+    <string name="storage_not_found_retry">Försök igen</string>
+    <string name="storage_not_found_settings">Konfigurara lagringsplatsen</string>
+
+    <string name="message_invalid_date">Ogiltigt datum</string>
+    <string name="message_not_a_number">Inte ett nummer</string>
+
+    <string name="label_unspecified">[Tom]</string>
+    <string name="label_yes">Ja</string>
+    <string name="label_no">Nej</string>
+    <string name="label_spatial_reference_system">Spatial Reference System</string>
+    <string name="label_start_gps">Starta GPS</string>
+    <string name="label_stop_gps">Stoppa GPS</string>
+    <string name="label_accuracy">Noggrannhet</string>
+
+    <string name="hint_date_pattern">dd MMMM yyyy</string>
+    <string name="hint_time_pattern">hh:mm</string>
+
+    <string name="settings_title_crewId">Crew ID</string>
+
+    <string name="settings_workingDir">Lagringsplats</string>
+    <string name="settings_theme_title">Collect Mobile tema</string>
+    <string name="settings_theme_dark">Mörk</string>
+    <string name="settings_theme_light">Ljus</string>
+    <string name="settings_theme_dark_summary">Collect Mobile använder ett mörkt tema.</string>
+    <string name="settings_theme_light_summary">Collect Mobile använder ett ljust tema.</string>
+
+    <string name="settings_title_showKeyboard">Visa tangentbordet automatiskt</string>
+    <string name="settings_summary_showKeyboard">Avgör om mjukvarutangentbordet automatiskt ska visas.</string>
+
+    <string name="import_title_failed">Misslyckades att importera %1$s</string>
+    <string name="import_overwrite_data_dialog_title">Ta bort datan</string>
+    <string name="import_overwrite_data_dialog_message">Din data kommer att tas bort om du fortsätter och importerar en ny survey.</string>
+    <string name="import_overwrite_data_dialog_confirm">Ta bort datan och importera</string>
+
+    <string name="import_demo_dialog_title">Importera demo formulär</string>
+    <string name="import_demo_dialog_message">Eftersom ingen annan survey är importerad, kommer en demo att användas,
+        för att vis funktionalliteten i Collect Mobile.
+        \n\nGå till <a href="http://openforis.org/tools/collect.html">openforis.org</a> för instruktioner hur du
+        designar din egen survey.\n
+    </string>
+
+    <string name="amount_selected">%d valda.</string>
+    <string name="delete">Ta bort</string>
+
+    <string name="file_attribute_capture_image">Ta ny bild</string>
+    <string name="file_attribute_select_image">Välj bild</string>
+    <string name="file_attribute_remove_image">Ta bort bild</string>
+    <string name="survey_list">Formulär</string>
+    <string name="settings">Inställningar</string>
+    <string name="action_survey_list">Formulär</string>
+    <string name="label_destination">Destination</string>
+    <string name="label_empty">…</string>
+    <string name="label_distance">Avstånd</string>
+    <string name="label_navigate">Navigera till förväntad plats</string>
+    <string name="label_show_code_descriptions">Visa kodbeskrivningar</string>
+    <string name="settings_summaryOff_compassEnabled">Compassen på enheten är inaktiverad</string>
+    <string name="settings_summaryOn_compassEnabled">Compassen på enheten är aktiverad</string>
+    <string name="settings_switchTextOff_compassEnabled">Inaktivera</string>
+    <string name="settings_switchTextOn_compassEnabled">Aktivera</string>
+    <string name="settings_title_compass">Kompass</string>
+    <string name="all_key_records_not_specified_title">Alla %1$s nyckerattribute har inte specificerats</string>
+    <string name="all_key_records_not_specified_message">För att exportera måste %1$s specificeras för alla %2$s</string>
+    <string name="export_dialog_option_exclude_binary_file">Excludera filer</string>
+    <string name="export_dialog_option_save_to_downloads">Spara bland nerladdade filer</string>
+    <string name="export_dialog_title">Exportera data</string>
+    <string name="export_share_with_application">Skicka data till</string>
+</resources>

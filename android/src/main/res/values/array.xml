@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_names">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+
+    <string-array name="theme_labels">
+        <item>@string/settings_theme_dark</item>
+        <item>@string/settings_theme_light</item>
+    </string-array>
+
+    <string-array name="font_scale_names">
+        <item>SMALL</item>
+        <item>NORMAL</item>
+        <item>BIG</item>
+        <item>VERY_BIG</item>
+    </string-array>
+
+    <string-array name="font_scale_labels">
+        <item>@string/settings_font_scale_small</item>
+        <item>@string/settings_font_scale_normal</item>
+        <item>@string/settings_font_scale_big</item>
+        <item>@string/settings_font_scale_very_big</item>
+    </string-array>
+
+    <string-array name="preferred_language_mode_names">
+        <item>SYSTEM_DEFAULT</item>
+        <item>SURVEY_DEFAULT</item>
+        <item>SPECIFIED</item>
+    </string-array>
+
+    <string-array name="preferred_language_mode_labels">
+        <item>@string/settings_preferred_language_mode_system_default</item>
+        <item>@string/settings_preferred_language_mode_survey_default</item>
+        <item>@string/settings_preferred_language_mode_specified</item>
+    </string-array>
+
+    <string-array name="backup_modes">
+        <item>@string/backup_mode_new_sdcard</item>
+        <item>@string/backup_mode_internal</item>
+    </string-array>
+</resources>

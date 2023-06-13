@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        maven { url "http://repository.jboss.org/nexus/content/groups/public" }
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "http://repository.jboss.org/nexus/content/groups/public" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile ('org.openforis.collect:collect-core:4.0.82') {
+        exclude group: 'org.apache.poi'
+        exclude group: 'org.springframework'
+        exclude group: 'org.liquibase'
+        exclude group: 'com.opencsv'
+        exclude module: 'commons-io'
+        exclude module: 'commons-jxpath'
+        exclude module: 'commons-lang3'
+    }
+    // jxpath repacked using openbeans instead of java.beans
+    compile ('com.github.openforis.android-ports:android-jxpath:android-ports-1.0-Alpha2') {
+        exclude module: 'servlet-api'
+        exclude module: 'javax.servlet'
+    }
+    compile 'com.github.openforis.android-ports:android-liquibase-core:android-ports-1.0-Alpha2'
+    compile 'me.champeau.openbeans:openbeans:1.0.2'
+    compile 'commons-io:commons-io:2.5' // latest version compatible with API 16
+    compile 'org.apache.commons:commons-lang3:3.9' // latest version compatible with API 16
+    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.15'
+    testCompile 'com.h2database:h2:1.4.189'
+}
+
+task copyTestResources(type: Copy) {
+    from "${projectDir}/src/test/resources"
+    into "${buildDir}/classes/test"
+}
+
+processTestResources.dependsOn copyTestResources

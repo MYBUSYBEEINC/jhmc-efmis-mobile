@@ -1,0 +1,444 @@
+Changes
+-------
+
+2019-03-29
+
+    * Use latest collect-core version
+
+2019-03-04
+
+    * Coordinate: show in map
+
+2019-01-24
+
+    * Improve survey import error message
+
+2019-01-18
+
+    * Support latest Collect desktop version (3.24.x)
+
+2018-12-10
+
+    * Improved translations
+
+2018-10-11
+
+    * Upgraded dependencies
+
+2018-10-08
+
+    * Increased limit in code attribute radio group to 100 elements
+
+2018-09-12
+
+    * Barcode scanner
+
+2018-08-28
+
+    * Support Audio and Video file attributes
+
+2018-07-27
+
+    * Bug fixes
+
+2018-07-23
+
+    * Bug fixes (enumerated entities)
+
+2018-07-20
+
+    * Bug fixes
+
+2018-07-04
+
+    * Bug fixes
+
+2018-06-24
+
+    * Do not require coarse location access permission
+
+2018-06-18
+
+    * Fixed Russian translation
+
+2018-06-10
+
+    * Always check for permissions when required (Android 6+)
+
+2018-06-07
+
+    * Bug fixes in math functions
+
+2018-05-29
+
+    * Survey language selection
+    * Support Collect 3.21.x new functions
+
+2018-05-04
+
+    * Bug fixes (crashes in Android 4)
+
+2018-04-27
+
+    * Bug fixes
+
+2018-04-25
+
+    * Bug fixes
+
+2018-04-24
+
+    * Bug fixes
+
+2018-04-11
+
+    * Change stored images file name format
+    * Bug fixes
+
+2018-04-03
+
+    * Improve data export error feedback
+    * Bug fixes
+
+2018-03-19
+
+    * Changed theme selector in settings
+
+2018-03-09
+
+    * Support configurable enumerated entities
+    * Layout improvements
+    * Bug fixes
+
+2018-03-02
+
+    * Bug fixes
+
+2018-02-28
+
+    * Bug fixes
+
+2018-02-27
+
+    * Bug fixes
+
+2018-02-23
+
+    * Bug fixes
+
+2018-02-22
+
+    * Hide not relevant attributes
+    * New landing screen
+    * Prevent automatically generated list of items from editing
+    * Improved record list layout
+    * Performance improvements
+    * Bug fixes
+
+2017-11-13
+
+    * Submit data to remote Collect server (configurable in Settings)
+
+2017-10-30
+
+    * Fixed bug where images could disappear second time a record was loaded
+
+2017-08-11
+
+    * Added French translation
+    * Fixed bug where surveys, with time attribute as key, crashed
+
+2017-05-12
+
+    * Added support for latest Collect Desktop version
+
+2017-04-10
+
+    * Fixed out-of-memory crashes with large records
+
+2017-03-21
+
+    * Added support for latest Collect Desktop version
+
+2017-01-04
+
+    * Fixed crash when some devices import survey from Google Drive
+
+2016-12-07
+
+    * Fixed crash when exceeding max entity count
+
+2016-12-06
+
+    * Fixed bug where relevance and validation status didn't get updated when nodes where added or removed
+
+
+2016-11-22
+
+    * Added support for latest Collect Desktop version
+
+2016-10-13
+
+    * Fixed bug where code qualifiers weren't included in exports.
+
+2016-10-05
+
+    * Fixed another bug where surveys couldn't be imported using the built-in file chooser.
+
+2016-09-26
+
+    * Fixed bug where surveys couldn't be imported using the built-in file chooser.
+
+2016-09-23
+
+    * Fixed bug where coordinates didn't get included in exports.
+
+2016-09-15
+
+    * Added confirmation dialog before records and entities are deleted
+    * Prevented non-relevant attributes from being updated
+    * Fixed bug that prevented surveys from being imported directly from Google Drive
+    * Added timestamp to exported data files
+    * Included option to exclude images from export
+    * Included option to save exported data files in Downloads directory
+    * Set title in action bar to current survey name
+    * Updated "Smart next" so it jumps to the record list once at the end of a record
+    * Added support for survey designs which restricts manual entry of GPS coordinates
+    * Indicated if a node in the node list sidebar is an attribute or not by using bold text on non-attributes
+    * Added support for Time attribute record keys
+    * Removed redundant incomplete coordinate validation error
+    * Made sure options for multi-choice code attributes get updated when parent code attribute is changed
+    * Fixed bug that prevented images from being removed
+    * Updated look and feel to Material Design
+
+2016-07-06
+
+    * Allowed dates to be record keys
+    * Fixed bug where default attributes didn't get validated properly
+    * Hid code keys when configured in survey design
+
+2016-04-26
+
+    * Fixed crash for designs where records used numeric keys
+
+2016-03-30
+
+    * Bug fixes
+    * Supports surveys from Collect Desktop 3.10.x
+
+2016-01-28
+
+    * Supports surveys from latest version of Collect Desktop
+
+2015-11-23
+
+    * Prevented data exported when there are records without their key(s) specified
+    * Bug fixes related to data export
+
+2015-11-19
+
+    * Bug fixes related to hierarchical code lists and enumerated entities
+
+2015-10-28
+
+    * Bug fixes on navigation interface.
+
+2015-10-29
+
+    * Added a navigation interface. Device GPS and compass are use to navigate to a location specified in sampling design.
+    * Minor bug fixes
+
+2015-10-21
+
+    * Improved sorting of sampling unit codes
+    * Minor bug fixes
+
+2015-09-25
+
+    * Included support for comma as decimal separators
+    * Added dialog displaying code descriptions for a code attribute
+    * Improved the code attributes with multiple auto-completion components
+    * Updated demo survey
+    * Supports latest version of Collect Desktop
+    * Minor bug fixes
+
+2015-09-15
+
+    * Taxon attribute displays and searches vernacular names
+    * Taxon querying more powerful. E.g. the query "abe es" matches "Abelmoschus esculentus"
+    * Added button for clearing current taxon
+
+
+2015-07-30
+
+    * Added support for latest Collect Desktop version
+
+2015-07-20
+
+    * Fixed the problem where high-resolution images could slow down, or even crash, the app.
+
+2015-06-11
+
+    * From now on, tabs in survey are ignored. Groupings of attributes can still be done through entities.
+
+2015-05-26
+
+    * Added action button for "previous" and a "smart-next"
+    * Updated support for default values
+    * Minor bug fixes
+
+2015-05-06
+
+    * Fixed a bug that could cause a crash when accessing a code attribute
+
+2015-05-05
+
+    * Added overview tables, providing an overview of entered data and allows for quick navigation.
+
+2015-04-15
+
+    * Added the possibility to share exported data though email, Bluetooth, DropBox, Google Drive etc.
+
+2015-04-14
+
+    * Added support for multiple surveys
+
+2015-03-19
+
+    * Added support for latest Collect Desktop version
+    * Fixed problem with validation of code attributes with multiplicity, rendered as checkboxes
+
+2014-11-17
+
+    * Fixed bug that could cause crash when initializing taxon attribute
+
+2014-11-04
+
+    * Added support for capturing and selecting images
+
+2014-10-24
+
+    * Fixed bug that crashed surveys with enumerated entities
+
+2014-10-22
+
+    * Fixed broken scrolling in older Android versions
+    * Fixed overlapping radio buttons/checkboxes in older Android versions
+    * Fixes to relevance and validation state
+
+2014-10-20
+
+    * Ignored irrelevant child nodes when determining an entity's validation status
+
+2014-10-17
+
+    * Changed the way records/entities are deleted. Using checkboxes and contextual action mode for deletion
+    * Made sure node state is updated when related nodes are deleted
+
+2014-10-16
+
+    * Fixed bug where statuses in entity lists weren't updated immediately
+
+2014-10-15
+
+    * Fixed crash when exporting data
+
+2014-10-09
+
+    * Fixed survey import when a survey already is imported
+    * Added confirmation dialog when importing survey when data already is entered
+    * Included a demo survey, that will load at start-up, when no other survey is imported
+    * Migrate database when importing survey from older Collect Server version
+
+2014-09-26
+
+    * Supported new format on .collect-mobile files
+    * Verified that the Collect version used to export a survey is supported by Collect Mobile
+
+2014-09-17
+
+    * Fixed crash for some xpath expressions
+
+2014-09-16
+
+    * Showed calculated attributed
+    * Fixed bug where the relevance of entities wasn't updated properly
+    * Fixed bug where validation of external code list items failed
+
+2014-09-04
+
+    * Fixed bug where calculated attributes where shown
+
+2014-09-02
+
+    * Use node name if label is undefined
+
+2014-07-31
+
+    * Supported free text code items
+    * Prevented entity key panel from overlapping node details
+    * Added support for latest Collect Server version
+    * Translated to Spanish
+
+2014-07-25
+
+    * Fixed crash in species selection
+
+2014-07-23
+
+    * Allowed the exact path of the working directory to be specified
+    * Included a panel with the entity keys, to provide information what entity data is inserted for.
+
+2014-07-18
+
+    * Added option to store data on SD card
+    * Included backup functionality
+    * Specified crew ID is now displayed in the settings
+    * Put exported files on SD card if data is stored on secondary storage
+    * Moved exported records directly into the cleansing phase
+    * Marked empty attributes as "blank in form"
+
+2014-07-11
+
+    * Added setting to capture the crew ID
+    * Supported survey design format exported in Collect Server
+    * Uniqueness or record keys are validated
+    * Fixed bug where record list wasn't properly updated when record key node changed
+
+2014-07-04
+
+    * This version is required to run surveys defined with Collect 3.1.x
+
+2014-06-27
+
+    * Current SRS for coordinate wasn't selected in spinner.
+
+2014-06-13b
+
+    * Stopped transforming coordinates when spatial reference system changes
+    * Defaulted time picker to current time, if time is unspecified
+
+2014-06-13
+
+    * Split coordinate node into separate fields
+    * Added support for selecting and transforming between spatial reference systems
+    * Implemented distance check
+    * Put hint on date and time fields
+
+2014-06-10
+
+    * Enabled gray overlay for irrelevant fields in all Android versions
+    * Added support for boolean attributes
+
+2014-06-06b
+
+    * Notified user with a Toast message on validation error, if user navigated away from node
+
+2014-06-06
+
+    * Fixed bug where device in different language then English tried to display validation error
+    * Increased padding under title of node description fragments, to fit eventual validation error messages
+
+2014-06-05
+
+    * Handled case where invalid database file was selected

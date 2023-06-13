@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- home screen -->
+    <string name="main_title">EFMIS Mobile</string>
+    <string name="version_label">Version:</string>
+    <string name="go_to_data_entry">Go to Data Entry</string>
+    <string name="survey_label">Select a survey:</string>
+    <string name="empty_survey_list">Empty survey list</string>
+    <string name="empty_survey_list_detailed_message">Import the demo survey\nor a survey generated with\nOpen Foris Collect Survey Designer</string>
+    <string name="import_new_survey_list_item">--- Import New Survey ---</string>
+    <string name="import_new_survey">Import New Survey</string>
+    <string name="import_demo_survey">Import Demo Survey</string>
+
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="select_file">Select file</string>
+    <string name="file_selected_view">View selected file</string>
+    <string name="delete">Delete</string>
+    <string name="rotate">Rotate</string>
+
+    <string name="info">Info</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+
+    <string name="low_storage_error">Low device storage</string>
+
+    <string name="app_name">EFMIS Mobile</string>
+    <string name="survey_list">Surveys</string>
+    <string name="settings">Settings</string>
+    <string name="button_select">Edit</string>
+
+    <string name="processing">Processing</string>
+    <string name="please_wait">Please wait…</string>
+
+    <string name="confirm_label">Confirm</string>
+    <string name="overwrite_label">Overwrite</string>
+
+    <string name="action_add_node">Add</string>
+    <string name="action_node_list">List</string>
+    <string name="action_next_attribute">Next</string>
+    <string name="action_import">Import</string>
+    <string name="action_survey_list">Surveys</string>
+    <string name="action_export">Export</string>
+    <string name="action_submit_data_to_collect">Submit data to Collect</string>
+    <string name="action_backup">Backup</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="backup_mode_choose">Choose backup mode</string>
+    <string name="backup_mode_new_sdcard">Into NEW SD card</string>
+    <string name="backup_mode_internal">Internal</string>
+    <string name="backup_not_enough_space_internal">Not enough space in internal memory to complete the backup process</string>
+    <string name="backup_not_enough_space_working_directory">Not enough space in working directory to complete the backup process</string>
+    <string name="backup_insert_sd_card">Please insert SD card to store backup on</string>
+    <string name="backup_complete">Backed up survey to %s</string>
+    <string name="backup_failed">Backup failed: %s</string>
+    <string name="backup_delete_oldest_snapshot">Delete oldest snapshot of the %s and try again?</string>
+    <string name="backup_delete_oldest_snapshot_failed">Failed to delete the oldest snapshot: %s</string>
+
+    <string name="toast_exported_survey">Exported survey to %s</string>
+    <string name="toast_exported_survey_failed">Failed to export survey: %s</string>
+    <string name="survey_export_failed_title">Error during export</string>
+    <string name="survey_export_failed_message">Failed to export survey "%s":\n\n\n%s</string>
+    <string name="all_key_records_not_specified_title">All %1$s key attributes have not been specified</string>
+    <string name="all_key_records_not_specified_message">In order to export the data, %1$s must be specified for all
+        %2$s.
+    </string>
+
+    <string name="toast_import_survey">Importing survey</string>
+    <string name="toast_import_survey_failed">Failed to import survey from %s</string>
+    <string name="toast_not_relevant_attribute_selected">This attribute is not relevant</string>
+
+    <!-- SURVEY GUIDE -->
+    <string name="survey_guide">Survey Guide</string>
+    <string name="survey_guide_share_with">View Survey Guide with:</string>
+    <string name="survey_guide_error_opening_file">Error opening Survey Guide file: %s</string>
+    <string name="survey_guide_not_found_alert_message">Survey guide not found in the survey</string>
+
+    <string name="storage_not_found_message">Secondary storage not found</string>
+    <string name="storage_not_found_retry">Retry</string>
+    <string name="storage_not_found_settings">Configure location</string>
+
+    <string name="message_invalid_date">Invalid date</string>
+    <string name="message_not_a_number">Not a number</string>
+    <string name="message_multiple_attribute_type_not_supported">Multiple attributes of type %s are not supported. Please modify the attribute definition in Collect Desktop / Survey Designer</string>
+
+    <string name="label_unspecified">[Empty]</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_spatial_reference_system">Spatial Reference System</string>
+    <string name="label_start_gps">Start GPS</string>
+    <string name="label_stop_gps">Stop GPS</string>
+    <string name="label_altitude">Altitude</string>
+    <string name="label_accuracy">Accuracy</string>
+    <string name="label_navigate">Navigate to\nexpected location</string>
+    <string name="label_show_map">Show on Map</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_destination">Destination</string>
+    <string name="label_empty">…</string>
+    <string name="label_edit">Edit</string>
+
+    <string name="hint_code_autocomplete">- Press space to show list of values -</string>
+    <string name="hint_code_qualifier_specify">- Specify -</string>
+    <string name="label_show_code_descriptions">Show item descriptions</string>
+
+    <string name="hint_date_pattern">dd MMMM yyyy</string>
+    <string name="hint_time_pattern">hh:mm</string>
+
+    <string name="submit_to_collect_confirm_title">Send records to Collect</string>
+    <string name="submit_to_collect_confirm_message">Send all collected records to Collect server?</string>
+    <string name="submit_to_collect_remote_sync_not_configured">Collect server not configured in Settings</string>
+
+    <string name="submit_to_collect_exporting_data_title">1/3 Exporting data</string>
+    <string name="submit_to_collect_uploading_file_title">2/3  Uploading file to Collect server</string>
+    <string name="submit_to_collect_restoring_data_title">3/3 Restoring data on Collect server</string>
+    <string name="submit_to_collect_error_restoring_data">An error occurred :</string>
+    <string name="submit_to_collect_submit_completed">Data submit completed</string>
+    <string name="submit_to_collect_submit_cancelled">Data submit cancelled</string>
+
+    <string name="settings_title_crewId">Crew ID</string>
+    <string name="settings_title_compass">Device compass</string>
+    <string name="settings_switchTextOn_compassEnabled">Enable</string>
+    <string name="settings_switchTextOff_compassEnabled">Disable</string>
+    <string name="settings_summaryOn_compassEnabled">Device compass is enabled</string>
+    <string name="settings_summaryOff_compassEnabled">Device compass is disabled</string>
+
+    <string name="settings_workingDir">Working directory</string>
+    <string name="settings_working_directory_external_sd_card">External SD Card - %d MB free\n%s</string>
+    <string name="settings_working_directory_emulated_sd_card">Emulated (internal) SD Card - %d MB free\n%s</string>
+    <string name="settings_working_directory_internal_memory">Internal memory - %d MB free\n%s</string>
+    <string name="settings_working_directory_custom">Custom location - %d MB free\n%s</string>
+    <string name="settings_working_directory_custom_entry">Custom location ...</string>
+    <string name="settings_category_appearance">Appearance</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark_summary">Dark theme</string>
+    <string name="settings_theme_light_summary">Light theme</string>
+    <string name="settings_font_scale_title">Font size</string>
+    <string name="settings_font_scale_small">Small</string>
+    <string name="settings_font_scale_normal">Normal</string>
+    <string name="settings_font_scale_big">Big</string>
+    <string name="settings_font_scale_very_big">Very big</string>
+    <string name="settings_lockScreenToPortraitMode_title">Lock screen to portrait mode</string>
+    <string name="settings_lockScreenToPortraitMode_summary">Disables the autorotation of the screen and forces the portrait view mode</string>
+    <string name="settings_ui_language_system_default_not_supported">not supported, %s will be used instead</string>
+    <string name="settings_title_showKeyboard">Automatically show keyboard</string>
+    <string name="settings_summary_showKeyboard">Determines if soft keyboard should automatically be shown when
+        accessing an node.
+    </string>
+    <string name="settings_language">Language</string>
+    <string name="settings_survey_preferred_language_mode">Preferred language</string>
+    <string name="settings_survey_preferred_language_specified">Preferred language specified</string>
+    <string name="settings_preferred_language_mode_system_default">System default</string>
+    <string name="settings_preferred_language_mode_survey_default">Survey default</string>
+    <string name="settings_preferred_language_mode_specified">Specified</string>
+    <string name="settings_language_ui">Application language (not editable)</string>
+    <string name="settings_language_survey">Survey labels language (not editable)</string>
+
+    <string name="settings_title_remoteSync">Collect Server</string>
+    <string name="settings_title_remoteSyncSwitchTitle">Collect server connection</string>
+    <string name="settings_title_remoteSyncSwitchSummaryOn">Collect server connection enabled</string>
+    <string name="settings_title_remoteSyncSwitchSummaryOff">Collect server connection disabled</string>
+    <string name="settings_title_remoteCollectAddress">Address</string>
+    <string name="settings_title_remoteCollectUsername">Username</string>
+    <string name="settings_title_remoteCollectPassword">Password</string>
+    <string name="settings_remote_sync_test">Test connection</string>
+    <string name="settings_remote_sync_test_summary">Tap to test the connection to Collect server</string>
+    <string name="settings_remote_sync_test_successful_title">Connection to Collect Server successful!</string>
+    <string name="settings_remote_sync_test_successful_message">Connection configured properly.</string>
+    <string name="settings_remote_sync_test_failed_title">Connection to Collect Server failed</string>
+    <string name="settings_remote_sync_test_failed_message_wrong_address">Wrong address or wrong username/password specified.</string>
+    <string name="settings_remote_sync_test_failed_message_newer_version">Collect Server runs version %s and it\'s not compatible with the one supported by this version of Collect Mobile (%s).\n\nPlease consider updating Collect Mobile to the latest version.</string>
+    <string name="settings_invalid_dialog_title">Invalid settings</string>
+    <string name="settings_working_directory_confirm_change">Change the working directory\nfrom\n%s\n to \n%s?</string>
+    <string name="settings_error_working_directory">Working directory invalid or not accessible: please change it.</string>
+
+    <string name="select_survey_to_import">"Select survey to import"</string>
+    <string name="import_title_failed">Failed to import survey</string>
+    <string name="survey_import_failed_empty_file_message">The file you are trying to import is empty.</string>
+    <string name="import_text_failed">Internal error: %1$s</string>
+    <string name="import_text_wrong_version">Survey design exported with Collect version %s but this version of Collect Mobile supports survey designs generated with Collect up to version %s.\nPlease consider updating Collect Mobile to the latest version.</string>
+    <string name="import_text_unsupported_file_type_selected">Please select a valid Collect Mobile survey file (.%s)</string>
+
+    <string name="export_dialog_title">Export survey data</string>
+    <string name="export_dialog_option_only_current_record">Only current record</string>
+    <string name="export_dialog_option_only_selected_records">Only selected records</string>
+    <string name="export_dialog_option_exclude_binary_file">Exclude image files</string>
+    <string name="export_dialog_option_exclude_calculated_values">Exclude calculated attribute values</string>
+    <string name="export_dialog_option_share">Share (by email, DropBox, Google Drive, etc.)</string>
+    <string name="export_dialog_option_save_to_downloads">Save to \"Download\" directory</string>
+    <string name="export_progress_dialog_title">Exporting data</string>
+    <string name="export_share_with_application">Send exported data to</string>
+    <string name="export_completed_title">Data export completed</string>
+    <string name="export_to_downloads_completed_message">Export file generated into \"Download\" folder.</string>
+
+    <string name="import_overwrite_data_dialog_title">Overwrite data</string>
+    <string name="import_overwrite_data_dialog_message">Data you entered for current survey will be deleted if you
+        proceed to import a survey.
+    </string>
+    <string name="import_overwrite_data_dialog_confirm">Delete data and import</string>
+
+    <string name="import_demo_dialog_title">Import demo survey</string>
+    <string name="import_demo_dialog_message">Since no other survey is imported, a demo survey will used, to highlight
+        the features of Collect Mobile.
+        \n\nGo to <a href="http://openforis.org/tools/collect.html">openforis.org</a> to find out how to design your own
+        surveys.\n
+    </string>
+    <string name="import_demo_processing_title">Importing demo survey</string>
+
+    <string name="amount_selected">%d selected.</string>
+    <string name="delete_records_title">Delete records</string>
+    <string name="delete_entities_title">Delete records</string>
+    <string name="delete_node_confirm_message">You are about to delete %d %s.</string>
+    <string name="part_records">records</string>
+    <string name="part_entities">entities</string>
+    <string name="file_attribute_capture">Capture</string>
+    <string name="file_attribute_captured_file_overwrite_confirm_message">Capture a new file and overwrite the existing one?</string>
+    <string name="file_attribute_capture_image_error">Error capturing image: %s</string>
+    <string name="file_attribute_capture_image_error_creating_temp_file">Error creating temp file</string>
+    <string name="file_attribute_select_image_error">Error selecting image: %s</string>
+    <string name="file_attribute_image_delete_confirm_message">Delete the uploaded image?</string>
+    <string name="file_attribute_audio_overwrite_confirm_message">Overwrite recorded audio?</string>
+    <string name="file_attribute_audio_delete_confirm_message">Delete captured audio?</string>
+    <string name="file_attribute_audio_select_file">Import from file</string>
+    <string name="file_attribute_audio_wrong_file_type_selected">Wrong audio file selected: only 3gp files are supported</string>
+    <string name="file_attribute_capture_video_error">Error capturing video: $s</string>
+    <string name="file_attribute_document_delete_confirm_message">Delete the uploaded file?</string>
+    <string name="file_attribute_file_select_error">Error selecting file: %s</string>
+
+    <string name="entity_list_modified">Modified</string>
+    <string name="entity_list_date_pattern">dd/MM/yyyy</string>
+
+    <string name="go_to_record_list">Go to record list</string>
+    <string name="navigate_to_record_list_confirm_title">Record completed</string>
+    <string name="navigate_to_record_list_confirm_message">Go back to record list?</string>
+    <string name="navigate_to_record_list_with_errors_confirm_title">Errors in the record</string>
+    <string name="navigate_to_record_list_with_errors_confirm_message">There are errors in the record.\n\nGo back to record list anyway?</string>
+
+    <string name="entity_collection_cannot_add_more_items">Cannot add more than %d items</string>
+
+    <string name="report_error_dialog_title">Collect Mobile - Error!</string>
+    <string name="report_error_dialog_confirm_button">Report</string>
+    <string name="report_error_dialog_message">Seems like Open Foris Collect Mobile faced an unexpected error.
+        \n\nWould you like to report it to the developer team?
+        \n\n(Private information won\'t be shared)</string>
+
+    <!-- BARCODE -->
+    <string name="barcode_capture_btn_label">Scan</string>
+    <string name="barcode_capture_toast">Point the camera to the barcode. Pinch/Stretch to zoom</string>
+    <string name="barcode_read_title">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+    <!-- PERMISSIONS -->
+    <string name="permission_required">Permission required</string>
+    <!-- Every request message will be composed by permission_request_prefix + permission_TYPE + (optionally:  permission_TYPE_rationale) +
+        permission_request_rationale_suffix OR permission_denied_suffix -->
+    <string name="permission_request_prefix">Access to </string>
+    <string name="permission_request_rationale_suffix">is needed to continue. Please give access to it.</string>
+    <string name="permission_denied_suffix">is needed to continue.
+        Please enable it accessing your device Settings / Apps / Collect Mobile / Permissions.
+    </string>
+
+    <string name="permission_camera">camera</string>
+    <string name="permission_internet">internet</string>
+    <string name="permission_internet_rationale">is needed to send the data to the Collect server configured in the application Settings.
+        The connection will be secure if the address of the server starts with HTTPS and the access to it</string>
+    <string name="permission_location">location</string>
+    <string name="permission_storage">local and external storage</string>
+    <string name="permission_storage_rationale">to store and backup the data collected is needed.
+        The working directory used by Collect Mobile can be changed from the Settings. This permission
+    </string>
+    <string name="permission_external_storage">external storage</string>
+    <string name="permission_record_audio">audio record</string>
+    <string name="permission_camera_barcode_scanner">camera to acquire the barcode</string>
+
+    <string name="exit_confirm_message">Exit from Collect Mobile?\n\n(data has been automatically saved already)</string>
+</resources>

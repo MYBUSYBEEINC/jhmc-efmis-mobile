@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/node_label"
+            style="?android:attr/textAppearanceLarge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:padding="?attr/standardPadding"/>
+
+    <ViewSwitcher
+        android:id="@+id/add_button_switcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top">
+
+        <ImageButton
+            android:id="@+id/action_add_node"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_add_node"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:src="@android:drawable/ic_input_add" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ViewSwitcher>
+
+</LinearLayout>
